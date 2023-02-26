@@ -28,7 +28,7 @@ select {
 
 .container {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 10px auto;
   background: rgb(155, 204, 236);
   padding: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
