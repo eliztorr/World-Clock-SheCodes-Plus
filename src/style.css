@@ -1,0 +1,87 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/191/original/dan-cristian-padure-mLzNhIOKtGw-unsplash.jpg?1677432190);
+  background-size: cover;
+  font-family: sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 68px;
+  font-weight: 500;
+  font-family: "Gloock", serif;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 26px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: rgb(155, 204, 236);
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.time {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(28, 14, 88);
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  font-size: 18px;
+}
+.all-cities-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+}

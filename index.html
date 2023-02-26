@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hind+Siliguri&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock - Elizabeth Torralbo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>WORLD CLOCK</h1>
+
+      <select id="city">
+        <option value="">Select a city..</option>
+        <option value="current">My current location</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Asia/Shanghai">Shanghai</option>
+        <option value="Europe/Athens">Athens</option>
+        <option value="Europe/London">London</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+        <option value="America/Caracas">Caracas</option>
+        <option value="US/Hawaii">Honolulu</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="auckland">
+          <div>
+            <h2>Auckland</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="dubai">
+          <div>
+            <h2>Dubai</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="amsterdam">
+          <div>
+            <h2>Amsterdam</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+          <div class="city" id="los_angeles">
+            <div>
+              <h2>Los Angeles</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-bottom bg-primary footer">
+    Open source code by
+            <a 
+              target="_blank"
+              href="https://www.linkedin.com/in/elizabethtorralbo/"
+              >Elizabeth Torralbo</a> available on 
+            <a
+              target="_blank"
+              href=""
+              >Github</a
+            >
+            and hosted on<a target="_blank" href=""> Netlify </a> 
+  </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
